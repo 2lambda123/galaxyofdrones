@@ -1,0 +1,764 @@
+repo_name: 2lambda123/galaxyofdrones
+report_id: 15cc15af1e459cb04e6bfe5082dba750
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-09T07:57:06+00:00'
+requested_by: 2lambda123
+provider: github
+branch: master
+detected_tools_count: 57
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/2lambda123/galaxyofdrones/blob/master/public/vendor/horizon/app.js
+  detection_source: public/vendor/horizon/app.js
+- name: PHP
+  description: A popular general-purpose scripting language that is especially suited
+    to web development
+  website_url: http://www.php.net/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/galaxyofdrones
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/2lambda123/galaxyofdrones/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Peter Takacs
+  last_updated_on: 2017-08-19 07:52:04.000000000 Z
+- name: Bootstrap
+  description: Simple and flexible HTML, CSS, and JS for popular UI components and
+    interactions
+  website_url: http://getbootstrap.com/
+  version: 4.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
+  detection_source_url: https://github.com/2lambda123/galaxyofdrones/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Peter Takacs
+  last_updated_on: 2021-03-18 21:14:39.000000000 Z
+- name: Guzzle
+  description: PHP HTTP client that makes it easy to send HTTP requests and trivial
+    to integrate with web services
+  website_url: http://guzzlephp.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/2350/638632.png
+  detection_source_url: https://github.com/2lambda123/galaxyofdrones/blob/master/composer.json
+  detection_source: composer.json
+  last_updated_by: Peter Takacs
+  last_updated_on: 2021-03-17 23:36:41.000000000 Z
+- name: Laravel
+  description: A PHP Framework For Web Artisans
+  website_url: http://laravel.com/
+  version: 8.33.1
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/992/AcA2LnWL_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/galaxyofdrones/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Peter Takacs
+  last_updated_on: 2021-03-17 23:36:41.000000000 Z
+- name: PostCSS
+  description: Transform CSS with JS plugins
+  website_url: https://github.com/postcss/postcss
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/3339/rlFcjEdI.png
+  detection_source_url: https://github.com/2lambda123/galaxyofdrones/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Peter Takacs
+  last_updated_on: 2017-08-19 07:52:04.000000000 Z
+- name: Sass
+  description: Syntactically Awesome Style Sheets
+  website_url: http://sass-lang.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
+  detection_source_url: https://github.com/2lambda123/galaxyofdrones/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Peter Takacs
+  last_updated_on: 2017-08-19 07:52:04.000000000 Z
+- name: Vue.js
+  description: A progressive framework for building user interfaces
+  website_url: http://vuejs.org/
+  version: 2.6.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript MVC Frameworks
+  image_url: https://img.stackshare.io/service/3837/paeckCWC.png
+  detection_source_url: https://github.com/2lambda123/galaxyofdrones/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Peter Takacs
+  last_updated_on: 2017-08-19 07:52:04.000000000 Z
+- name: jQuery
+  description: The Write Less, Do More, JavaScript Library.
+  website_url: http://jquery.com/
+  version: 3.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/galaxyofdrones/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Peter Takacs
+  last_updated_on: 2021-03-18 21:14:39.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/2lambda123/galaxyofdrones/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Peter Takacs
+  last_updated_on: 2017-08-19 07:52:04.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/galaxyofdrones
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/2lambda123/galaxyofdrones/blob/master/.github/workflows/tests.yml
+  detection_source: ".github/workflows/tests.yml"
+  last_updated_by: Peter Takacs
+  last_updated_on: 2021-03-18 17:41:52.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/galaxyofdrones/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Peter Takacs
+  last_updated_on: 2017-08-19 07:52:04.000000000 Z
+- name: PHPUnit
+  description: Testing framework for PHP
+  website_url: https://phpunit.de/
+  version: 9.5.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/1616/1_WsEnddd5Y4EgEHsT054kUQ.jpeg
+  detection_source_url: https://github.com/2lambda123/galaxyofdrones/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Peter Takacs
+  last_updated_on: 2017-08-19 07:52:04.000000000 Z
+- name: Pixi
+  description: Create beautiful digital content with the fastest, most flexible 2D
+    WebGL renderer
+  website_url: https://www.pixijs.com/
+  version: 5.3.8
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/3283/5406849.png
+  detection_source_url: https://github.com/2lambda123/galaxyofdrones/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Peter Takacs
+  last_updated_on: 2017-08-19 07:52:04.000000000 Z
+- name: Rollbar
+  description: Proactively discover, predict, and remediate errors.
+  website_url: https://rollbar.com/
+  open_source: false
+  hosted_saas: true
+  category: Monitoring
+  sub_category: Exception Monitoring
+  image_url: https://img.stackshare.io/service/328/default_3147629185038a15dd41907749544023633da1ea.png
+  detection_source_url: https://github.com/2lambda123/galaxyofdrones/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Peter Takacs
+  last_updated_on: 2021-03-18 21:14:39.000000000 Z
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  version: 5.26.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: https://github.com/2lambda123/galaxyofdrones/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Peter Takacs
+  last_updated_on: 2017-08-19 07:52:04.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/2lambda123/galaxyofdrones/blob/master/yarn.lock
+  detection_source: yarn.lock
+  last_updated_by: Peter Takacs
+  last_updated_on: 2017-12-23 09:23:00.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/2lambda123/galaxyofdrones/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Peter Takacs
+  last_updated_on: 2017-08-19 07:52:04.000000000 Z
+- name: Leaflet
+  description: JavaScript library for mobile-friendly interactive maps
+  website_url: http://leafletjs.com/
+  version: 1.7.1
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Mapping APIs
+  image_url: https://img.stackshare.io/service/2392/leaflet_upic.png
+  detection_source_url: https://github.com/2lambda123/galaxyofdrones/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Peter Takacs
+  last_updated_on: 2021-03-18 21:14:39.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.21
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: https://github.com/2lambda123/galaxyofdrones/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Peter Takacs
+  last_updated_on: 2021-03-18 21:14:39.000000000 Z
+- name: Moment.js
+  description: A JavaScript date library for parsing, validating, manipulating, and
+    formatting dates
+  website_url: http://momentjs.com/
+  version: 2.29.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
+  detection_source_url: https://github.com/2lambda123/galaxyofdrones/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Peter Takacs
+  last_updated_on: 2021-03-18 21:14:39.000000000 Z
+- name: SweetAlert
+  description: A beautiful replacement for JavaScript's "alert"
+  website_url: https://sweetalert.js.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://ucarecdn.com/c4c55828-7bcf-4661-8f4f-52745636aafd/
+  detection_source_url: https://github.com/2lambda123/galaxyofdrones/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Peter Takacs
+  last_updated_on: 2021-03-18 21:14:39.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 1.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/2lambda123/galaxyofdrones/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-11-10 16:00:36.000000000 Z
+- name: laravel-mix
+  description: A framework for web artisans.
+  website_url: https://laravel.com/docs/5.5/mix
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/7945/h7umz7fz_normal.jpg
+  detection_source_url: https://github.com/2lambda123/galaxyofdrones/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Peter Takacs
+  last_updated_on: 2021-03-18 21:14:39.000000000 Z
+- name: barryvdh/laravel-ide-helper
+  description: Laravel IDE Helper
+  package_url: https://packagist.org/barryvdh/laravel-ide-helper
+  version: 2.9.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/galaxyofdrones/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Peter Takacs
+  last_updated_on: 2021-03-17 23:36:41.000000000 Z
+- name: beyondcode/laravel-websockets
+  description: An easy to launch a Pusher-compatible WebSockets server for Laravel
+  package_url: https://packagist.org/beyondcode/laravel-websockets
+  version: 1.11.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/galaxyofdrones/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Peter Takacs
+  last_updated_on: 2021-03-17 23:36:41.000000000 Z
+- name: facade/ignition
+  description: A beautiful error page for Laravel applications
+  package_url: https://packagist.org/facade/ignition
+  version: 2.5.14
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/galaxyofdrones/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Peter Takacs
+  last_updated_on: 2021-03-17 23:36:41.000000000 Z
+- name: fideloper/proxy
+  description: Set trusted proxies for Laravel
+  package_url: https://packagist.org/fideloper/proxy
+  version: 4.4.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/galaxyofdrones/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Peter Takacs
+  last_updated_on: 2021-03-17 21:37:46.000000000 Z
+- name: guzzlehttp/guzzle
+  description: Guzzle is a PHP HTTP client library
+  package_url: https://packagist.org/guzzlehttp/guzzle
+  version: 7.4.5
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/galaxyofdrones/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Peter Takacs
+  last_updated_on: 2021-03-17 23:36:41.000000000 Z
+- name: kalnoy/nestedset
+  description: Nested Set Model for Laravel 5.7 and up
+  package_url: https://packagist.org/kalnoy/nestedset
+  version: 5.0.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/galaxyofdrones/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Peter Takacs
+  last_updated_on: 2021-03-17 23:36:41.000000000 Z
+- name: laravel/dusk
+  description: Laravel Dusk provides simple end-to-end testing and browser automation
+  package_url: https://packagist.org/laravel/dusk
+  version: 6.13.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/galaxyofdrones/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Peter Takacs
+  last_updated_on: 2021-03-17 23:36:41.000000000 Z
+- name: laravel/framework
+  description: The Laravel Framework
+  package_url: https://packagist.org/laravel/framework
+  version: 8.33.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/galaxyofdrones/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Peter Takacs
+  last_updated_on: 2021-03-17 23:36:41.000000000 Z
+- name: laravel/horizon
+  description: Dashboard and code-driven configuration for Laravel queues
+  package_url: https://packagist.org/laravel/horizon
+  version: 5.7.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/galaxyofdrones/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Peter Takacs
+  last_updated_on: 2021-03-17 23:36:41.000000000 Z
+- name: laravel/passport
+  description: Laravel Passport provides OAuth2 server support to Laravel
+  package_url: https://packagist.org/laravel/passport
+  version: 10.1.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/galaxyofdrones/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Peter Takacs
+  last_updated_on: 2021-03-17 23:36:41.000000000 Z
+- name: laravel/telescope
+  description: An elegant debug assistant for the Laravel framework
+  package_url: https://packagist.org/laravel/telescope
+  version: 4.4.6
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/galaxyofdrones/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Peter Takacs
+  last_updated_on: 2021-03-17 23:36:41.000000000 Z
+- name: laravel/tinker
+  description: Powerful REPL for the Laravel framework
+  package_url: https://packagist.org/laravel/tinker
+  version: 2.6.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/galaxyofdrones/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Peter Takacs
+  last_updated_on: 2021-03-17 23:36:41.000000000 Z
+- name: laravel/ui
+  description: Laravel UI utilities and presets
+  package_url: https://packagist.org/laravel/ui
+  version: 3.2.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/galaxyofdrones/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Peter Takacs
+  last_updated_on: 2021-03-17 23:36:41.000000000 Z
+- name: mockery/mockery
+  description: Mockery is a simple yet flexible PHP mock object framework
+  package_url: https://packagist.org/mockery/mockery
+  version: 1.4.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/galaxyofdrones/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Peter Takacs
+  last_updated_on: 2021-03-17 23:36:41.000000000 Z
+- name: nunomaduro/collision
+  description: Cli error handling for console/command-line PHP applications
+  package_url: https://packagist.org/nunomaduro/collision
+  version: 5.3.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/galaxyofdrones/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Peter Takacs
+  last_updated_on: 2021-03-17 21:37:46.000000000 Z
+- name: phpunit/phpunit
+  description: The PHP Unit Testing framework
+  package_url: https://packagist.org/phpunit/phpunit
+  version: 9.5.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/2lambda123/galaxyofdrones/blob/master/composer.lock
+  detection_source: composer.json
+  last_updated_by: Peter Takacs
+  last_updated_on: 2021-03-17 23:36:41.000000000 Z
+- name: eslint-config-airbnb-base
+  description: Airbnb's base JS ESLint config, following our styleguide
+  package_url: https://www.npmjs.com/eslint-config-airbnb-base
+  version: 14.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15888/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/2lambda123/galaxyofdrones/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Peter Takacs
+  last_updated_on: 2021-03-18 21:14:39.000000000 Z
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  version: 2.22.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/2lambda123/galaxyofdrones/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Peter Takacs
+  last_updated_on: 2021-03-18 21:14:39.000000000 Z
+- name: eslint-plugin-vue
+  description: Official ESLint plugin for Vue.js
+  package_url: https://www.npmjs.com/eslint-plugin-vue
+  version: 6.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15950/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/2lambda123/galaxyofdrones/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Peter Takacs
+  last_updated_on: 2021-03-18 21:14:39.000000000 Z
+- name: glob
+  description: A little globber
+  package_url: https://www.npmjs.com/glob
+  version: 7.1.6
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15875/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/2lambda123/galaxyofdrones/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Peter Takacs
+  last_updated_on: 2021-03-18 21:14:39.000000000 Z
+- name: laravel-mix
+  description: Laravel Mix is an elegant wrapper around Webpack for the 80% use case
+  package_url: https://www.npmjs.com/laravel-mix
+  version: 6.0.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17350/default_33c3173e7d0e91f7cea0eab9883ca83b157bd4a5.png
+  detection_source_url: https://github.com/2lambda123/galaxyofdrones/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Peter Takacs
+  last_updated_on: 2021-03-18 21:14:39.000000000 Z
+- name: moment
+  description: Parse, validate, manipulate, and display dates
+  package_url: https://www.npmjs.com/moment
+  version: 2.29.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15847/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/2lambda123/galaxyofdrones/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Peter Takacs
+  last_updated_on: 2021-03-18 21:14:39.000000000 Z
+- name: perfect-scrollbar
+  description: Minimalistic but perfect custom scrollbar plugin
+  package_url: https://www.npmjs.com/perfect-scrollbar
+  version: 1.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18340/default_a605b2929de4c3bd4460a01b8dc144fde6aa5419.png
+  detection_source_url: https://github.com/2lambda123/galaxyofdrones/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Peter Takacs
+  last_updated_on: 2021-03-18 21:14:39.000000000 Z
+- name: pixi.js
+  description: PixiJS without the CanvasRenderer fallback
+  package_url: https://www.npmjs.com/pixi.js
+  version: 5.3.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17665/default_551bd6e1eb9aebdd20755ea11f70c7494c135ca4.png
+  detection_source_url: https://github.com/2lambda123/galaxyofdrones/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Peter Takacs
+  last_updated_on: 2021-03-18 21:14:39.000000000 Z
+- name: popper.js
+  description: A kickass library to manage your poppers
+  package_url: https://www.npmjs.com/popper.js
+  version: 1.16.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16357/default_c47f6a56d74fae4d4404d77067b2fa35da6f1924.png
+  detection_source_url: https://github.com/2lambda123/galaxyofdrones/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Peter Takacs
+  last_updated_on: 2021-03-18 21:14:39.000000000 Z
+- name: sass-loader
+  description: Sass loader for webpack
+  package_url: https://www.npmjs.com/sass-loader
+  version: 10.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15842/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/2lambda123/galaxyofdrones/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Peter Takacs
+  last_updated_on: 2021-03-18 21:14:39.000000000 Z
+- name: sweetalert2
+  description: A beautiful
+  package_url: https://www.npmjs.com/sweetalert2
+  version: 10.15.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18093/image.png
+  detection_source_url: https://github.com/2lambda123/galaxyofdrones/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Peter Takacs
+  last_updated_on: 2021-03-18 21:14:39.000000000 Z
+- name: vue
+  description: Vue
+  package_url: https://www.npmjs.com/vue
+  version: 2.6.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15844/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/2lambda123/galaxyofdrones/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Peter Takacs
+  last_updated_on: 2017-08-19 07:52:04.000000000 Z
+- name: vue-loader
+  description: "&gt; webpack loader for Vue Single-File Components"
+  package_url: https://www.npmjs.com/vue-loader
+  version: 15.9.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15901/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
+  detection_source_url: https://github.com/2lambda123/galaxyofdrones/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Peter Takacs
+  last_updated_on: 2021-03-18 21:14:39.000000000 Z
+- name: vue-router
+  description: Official router for Vue.js 2
+  package_url: https://www.npmjs.com/vue-router
+  version: 3.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15969/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
+  detection_source_url: https://github.com/2lambda123/galaxyofdrones/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Peter Takacs
+  last_updated_on: 2021-03-18 21:14:39.000000000 Z
+- name: vue-template-compiler
+  description: Template compiler for Vue 2.0
+  package_url: https://www.npmjs.com/vue-template-compiler
+  version: 2.6.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15850/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/2lambda123/galaxyofdrones/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Peter Takacs
+  last_updated_on: 2021-03-18 21:14:39.000000000 Z
